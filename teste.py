@@ -3,7 +3,7 @@ menor_altura = float('inf')
 soma_altura_homens = 0
 quantidade_mulheres = 0
 
-for _ in range(5):
+for _ in range(15):
  altura = float(input("Digite a altura: "))
  genero = input("Digite o gênero (M ou F): ")
  media_altura_homens = soma_altura_homens / (15 - quantidade_mulheres)
